@@ -1,0 +1,10 @@
+CREATE INDEX idx_Drug_type_id ON Drug(type_id);
+CREATE INDEX idx_Drug_form_id ON Drug(form_id);
+CREATE INDEX idx_Batch_drug_id ON Batch(drug_id);
+CREATE INDEX idx_Batch_country_id ON Batch(country_id);
+CREATE INDEX idx_Batch_package_id ON Batch(package_id);
+CREATE INDEX idx_Sale_employee_id ON Sale(employee_id);
+CREATE INDEX idx_Sale_drug_id ON Sale(drug_id);
+CREATE INDEX idx_Prescription_doctor_id ON Prescription(doctor_id);
+CREATE INDEX idx_Prescription_drug_id ON Prescription(drug_id);
+CREATE INDEX idx_Prescription_package_id ON Prescription(package_id);
